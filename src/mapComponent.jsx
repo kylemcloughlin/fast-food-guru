@@ -59,7 +59,7 @@ class MapComponent extends Component {
           <MarkerModal
           modalIsOpen={this.state.modal} modalIsClosed={() => {this.setState({modal: false})}} review={this.state.currentReview}/>
           ) : (
-            <h1> </h1>
+            <h1></h1>
             )}
             </div>
     );
