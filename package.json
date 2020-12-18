@@ -2,9 +2,13 @@
   "name": "fast-food-guru",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
+    "google-maps-react": "^2.0.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-geocode": "^0.1.2",
+    "react-modal": "^3.10.1",
     "react-scripts": "3.1.1"
   },
   "scripts": {
